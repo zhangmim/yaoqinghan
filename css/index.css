@@ -1,0 +1,336 @@
+html,body,div,p,ul,h1,h2{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    background:#b5e2df;
+}
+.loop{
+    animation-iteration-count: infinite;
+}
+.page1 .pic1{
+    display: block;
+    width: 1.76rem;
+    height: 0.6rem;
+    margin: 0.38rem auto 0 auto;
+}
+.page1 .pic2{
+    display: block;
+    width: 2.63rem;
+    height: 2.63rem;
+    margin: 0.35rem auto 0 auto;
+}
+.page1 .pic3{
+    display: block;
+    width: 0.71rem;
+    height: 0.72rem;
+    margin: 0.17rem auto 0 auto;
+}
+.page1 .pic4{
+    display: block;
+    width: 0.87rem;
+    height: 0.33rem;
+    margin: 0.21rem auto 0 auto;
+}
+.page1 p{
+    font-size: 0.14rem;
+    position: absolute;
+    left: 1rem;;
+    top: 3.53rem;
+    color: white;
+    font-weight: bold;
+}
+
+.page2 .pic1{
+    display: block;
+    width: 1.47rem;
+    height: 0.77rem;
+    position: absolute;
+    left: 1.08rem;
+    top: 0.35rem;
+}
+.page2 .text{
+    width: 3.01rem;
+    height: 2.32rem;
+    background: #def2f1;
+    margin: 0.93rem auto 0 auto;
+    padding-top: 0.5rem;
+}
+.page2 p{
+    font-size: 0.146rem;
+    text-align: center;
+    color: #4dc0ab;
+    line-height: 0.3rem;
+}
+.page2 .pic2{
+    display: block;
+    width: 2.4rem;
+    height: 1.72rem;
+    margin-left: 0.23rem;
+    margin-top: 0.28rem;
+}
+
+.page3 .pic1{
+    display: block;
+    width: 1.47rem;
+    height: 0.37rem;
+    margin: 0.3rem auto 0.42rem auto;
+}
+.page3 .box{
+    width: 2.35rem;
+    height: 3.85rem;
+    background: #3da7a0;
+    margin: 0 auto;
+    padding: 0 0.1rem;
+}
+.page3 .box li{
+    height: 0.76rem;
+}
+.page3 .box li:after{
+    content: "";
+    display:block;
+    height:0;
+    width:0;
+    clear:both;
+ }
+.page3 .box img{
+    display: block;
+    width: 0.59rem;
+    height: 0.58rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+.page3 .box p{
+    width: 1.65rem;
+    height: 0.57rem;
+    background: white;
+    float: right;
+    margin-top: 0.1rem;
+    font-size: 0.14rem;
+    line-height: 0.3rem;
+    padding-left: 0.05rem;
+    color: #b1b1b1;
+    font-weight: bold;
+}
+.page3 .box p span{
+    display: block;
+    font-size: 0.18rem;
+    color: #3da7a0;
+}
+
+.page4 .pic1{
+    display: block;
+    width: 1.72rem;
+    height: 0.25rem;
+    margin: 0.37rem auto 0 auto;
+}
+.page4 .txt1{
+    font-size: 0.16rem;
+    color: white;
+    margin: 0.2rem auto 0.16rem;
+    font-weight: bold;
+    text-align: center;
+}
+.page4 .txt2{
+    font-size: 0.16rem;
+    color: white;
+    margin-top: 0.2rem;
+    font-weight: bold;
+    margin-left: 0.39rem;
+    margin-right: 0.31rem;
+    line-height: 0.3rem;
+}
+.page4 .txt3{
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+    margin-left: 0.39rem;
+    margin-right: 0.31rem;
+    margin-top: 0.2rem;
+}
+.page4 .pic2{
+    display: block;
+    width: 2.69rem;
+    height: 1.94rem;
+    margin: 0.2rem auto 0 auto;
+    box-shadow: 0.04rem 0.1rem 0.05rem #606060,-0.04rem 0 0.1rem#606060;
+}
+
+.page5 .pic1{
+    display: block;
+    width: 1.72rem;
+    height: 0.25rem;
+    margin: 0.37rem auto 0.45rem auto;
+}
+.page5 .txt1{
+    font-size: 0.16rem;
+    line-height: 0.3rem;
+    color: #838383;
+    margin-left: 0.39rem;
+    margin-right: 0.34rem;
+    margin-bottom: 0.55rem;
+}
+.page5 .txt1 span{
+    color: #27c3b9;
+}
+.page5 .txt2{
+    width: 1.15rem;
+    height: 0.3rem;
+    background: #27c3b9;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: white;
+    margin-left: 0.39rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+.page5 ul{
+    margin-left: 0.39rem;
+}
+.page5 li{
+    font-size: 0.16rem;
+    color: white;
+    line-height: 0.3rem;
+    font-weight: bold;
+}
+.page5 .txt3{
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+    width: 2.61rem;
+    height: 1.33rem;
+    background: url("../images/tu10.png") no-repeat;
+    background-size: 100% 1.63rem;
+    font-size: 0.133rem;
+    padding-top: 0.3rem;
+    padding-left: 0.41rem;
+    padding-right: 0.51rem;
+    line-height: 0.3rem;
+    color: #27c3b9;
+
+}
+
+.page6 .pic1{
+    display: block;
+    width: 1.72rem;
+    height: 0.25rem;
+    margin: 0.37rem auto 0 auto;
+}
+.page6 .box{
+    width: 100%;
+    height: 0.70rem;
+    background-color: #e1f3f2;
+    padding-top: 0.24rem;
+    margin-top: 0.36rem;
+}
+.page6 .box:first-of-type{
+    background-image: url("../images/con1.png");
+    background-size:0.98rem 0.94rem;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.page6 .box:nth-of-type(2){
+    background-image: url("../images/con2.png");
+    background-size:0.98rem 0.94rem;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.page6 .box:nth-of-type(3){
+    background-image: url("../images/con3.png");
+    background-size:0.98rem 0.94rem;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.page6 p{
+    font-size: 0.14rem;
+    padding-left: 0.52rem;
+    line-height: 0.3rem;
+    color: #27c3b9;
+}
+
+.page7 h2{
+    background: url("../images/tu2.png") no-repeat;
+    background-size: 0.49rem 0.48rem;
+    font-size: 0.18rem;
+    margin-left: 0.83rem;
+    margin-top: 0.74rem;
+    padding-left: 0.55rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+}
+.page7 p{
+    margin-top: 0.38rem;
+    font-size: 0.16rem;
+    text-align: center;
+    font-weight: bold;
+}
+.page7 .pic1{
+    display: block;
+    width: 1.48rem;
+    height: 1.51rem;
+    margin: 0.25rem auto 0 auto;
+}
+.page7 .pic2{
+    display: block;
+    width: 100%;
+    height: 1.31rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.page8 .tu:after{
+    content:"";
+    display:block;
+    height:0;
+    width:0;
+    clear:both;
+}
+.page8 .tu{
+    margin-left: 0.19rem;
+    margin-bottom: 0.3rem;
+}
+.page8 .pic1{
+    display: block;
+    width: 1.72rem;
+    height: 0.25rem;
+    margin: 0.37rem auto 0 auto;
+}
+.page8 .pic2{
+    display: block;
+    float: left;
+    width: 1.47rem;
+    height: 1.53rem;
+    margin-right: 0.2rem;
+    margin-top: 0.2rem;
+}
+.page8 p{
+    text-align: center;
+    font-size: 0.14rem;
+    color: #0db571;
+    font-weight: bold;
+}
+.page8 .pic3{
+    display: block;
+    width: 100%;
+    height: 0.87rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
